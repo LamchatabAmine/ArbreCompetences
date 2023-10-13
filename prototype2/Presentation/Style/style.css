@@ -1,0 +1,112 @@
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .login input[type=button] {
+            color: #fff !important;
+            float: inline-end;
+            margin-bottom: 10px;
+            padding: 4px 20px;
+            background-color: black;
+            border: none;
+            font-size: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 2px;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+
+
+
+        /* login page  */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .contains {
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+
+        select {
+            font-size: 0.9rem;
+            padding: 2px 5px;
+        }
+
+
+        button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+
+        .container {
+            padding: 16px;
+        }
+
+        span.CNE {
+            float: right;
+            /* padding-top: 16px; */
+        }
+
+        /* Extra styles for the cancel button */
+        .cancelbtn {
+            width: auto !important;
+            padding: 10px 18px !important;
+            background-color: #f44336 !important;
+        }
+
+
+
+        /* Change styles for span and cancel button on extra small screens */
+        @media screen and (max-width: 300px) {
+            span.CNE {
+                display: block;
+                float: none;
+            }
+
+            .cancelbtn {
+                width: 100%;
+            }
+        }
