@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- head -->
 
 <head>
   <meta charset="utf-8">
@@ -29,6 +30,7 @@
   <link rel="stylesheet" href="./assets/plugins/summernote/summernote-bs4.min.css">
 </head>
 
+
 <body class="hold-transition sidebar-mini layout-fixed">
   <div class="wrapper">
 
@@ -51,9 +53,7 @@
           <a href="#" class="nav-link">Contact</a>
         </li> -->
       </ul>
-
       <!-- Right navbar links -->
-
     </nav>
     <!-- /.navbar -->
 
@@ -83,13 +83,13 @@
               </a>
               <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="ajouter.html" class="nav-link">
+                  <a href="compentence.html?edit" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Ajouter Competence</p>
                   </a>
                 </li>
               </ul>
-              
+
             </li>
           </ul>
         </nav>
@@ -110,7 +110,7 @@
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item active">Home</li>
-                <li class="breadcrumb-item"><a href="ajouter.html">Ajouter Competence</a></li>
+                <li class="breadcrumb-item"><a href="compentence.html?ajouter">Ajouter Competence</a></li>
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -122,151 +122,152 @@
       <section class="content">
         <div class="container-fluid">
           <div class="row">
-            <!-- /.card-header -->
-            <div class="card-body  p-0">
-              <table class="table table-light table-hover">
-                <thead>
-                  <tr>
-                    <th>References</th>
-                    <th>Code</th>
-                    <th>Nom</th>
-                    <th>Description</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">C1</th>
-                    <td>Maquette</td>
-                    <td>Maquetter une application mobile</td>
-                    <td>Description</td>
-                    <td>
-                      <div class="btn-group">
-                        <a href="edit.html" class="btn btn-success">
-                          <i class="fas fa-edit"></i>
-                        </a>
-                        <a href="" class="btn btn-danger">
-                          <i class="fas fa-trash"></i>
-                        </a>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">C2</th>
-                    <td>Base Données</td>
-                    <td>Manipuler une base de données - perfectionnement</td>
-                    <td>Description</td>
-                    <td>
-                      <div class="btn-group">
-                        <a href="edit.html" class="btn btn-success">
-                          <i class="fas fa-edit"></i>
-                        </a>
-                        <a href="" class="btn btn-danger">
-                          <i class="fas fa-trash"></i>
-                        </a>
-                      </div>
-                    </td>
-                  </tr>
+            <div class="col-12">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="card-title">Tableau des competences</h3>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body  p-0">
+                  <table class="table table-light table-hover">
+                    <thead>
+                      <tr>
+                        <th>References</th>
+                        <th>Code</th>
+                        <th>Nom</th>
+                        <th>Description</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">C1</th>
+                        <td>Maquette</td>
+                        <td>Maquetter une application mobile</td>
+                        <td>Description</td>
+                        <td>
+                          <div class="btn-group" style="gap: 8px;">
+                            <a href="compentence.html?edit" class="btn btn-success">
+                              <i class="fas fa-edit"></i>
+                            </a>
+                            <a href="#" class="btn btn-danger">
+                              <i class="fas fa-trash"></i>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">C2</th>
+                        <td>Base Données</td>
+                        <td>Manipuler une base de données - perfectionnement</td>
+                        <td>Description</td>
+                        <td>
+                          <div class="btn-group" style="gap: 8px;">
+                            <a href="compentence.html?edit" class="btn btn-success">
+                              <i class="fas fa-edit"></i>
+                            </a>
+                            <a href="" class="btn btn-danger">
+                              <i class="fas fa-trash"></i>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
 
-                  <tr>
-                    <th scope="row">C3</th>
-                    <td>Back-end</td>
-                    <td>Développer la partie back-end d'une application web ou web mobile - perfectionnement</td>
-                    <td>Description</td>
-                    <td>
-                      <div class="btn-group">
-                        <a href="edit.html" class="btn btn-success">
-                          <i class="fas fa-edit"></i>
-                        </a>
-                        <a href="" class="btn btn-danger">
-                          <i class="fas fa-trash"></i>
-                        </a>
-                      </div>
-                    </td>
-                  </tr>
+                      <tr>
+                        <th scope="row">C3</th>
+                        <td>Back-end</td>
+                        <td>Développer la partie back-end d'une application web ou web mobile - perfectionnement</td>
+                        <td>Description</td>
+                        <td>
+                          <div class="btn-group" style="gap: 8px;">
+                            <a href="compentence.html?edit" class="btn btn-success">
+                              <i class="fas fa-edit"></i>
+                            </a>
+                            <a href="" class="btn btn-danger">
+                              <i class="fas fa-trash"></i>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
 
-                  <tr>
-                    <th scope="row">C4</th>
-                    <td>Gestion</td>
-                    <td>Collaborer à la gestion d’un projet informatique et à l’organisation de<br>l’environnement de
-                      développement -
-                      perfectionnement</td>
-                    <td>Description</td>
-                    <td>
-                      <div class="btn-group">
-                        <a href="edit.html" class="btn btn-success">
-                          <i class="fas fa-edit"></i>
-                        </a>
-                        <a href="" class="btn btn-danger">
-                          <i class="fas fa-trash"></i>
-                        </a>
-                      </div>
-                    </td>
-                  </tr>
+                      <tr>
+                        <th scope="row">C4</th>
+                        <td>Gestion</td>
+                        <td>Collaborer à la gestion d’un projet informatique et à l’organisation de<br>l’environnement
+                          de
+                          développement -
+                          perfectionnement</td>
+                        <td>Description</td>
+                        <td>
+                          <div class="btn-group" style="gap: 8px;">
+                            <a href="compentence.html?edit" class="btn btn-success">
+                              <i class="fas fa-edit"></i>
+                            </a>
+                            <a href="" class="btn btn-danger">
+                              <i class="fas fa-trash"></i>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
 
-                  <tr>
-                    <th scope="row">C5</th>
-                    <td>Mobile native</td>
-                    <td>Développer une application mobile native, avec Android et React Native</td>
-                    <td>Description</td>
-                    <td>
-                      <div class="btn-group">
-                        <a href="edit.html" class="btn btn-success">
-                          <i class="fas fa-edit"></i>
-                        </a>
-                        <a href="" class="btn btn-danger">
-                          <i class="fas fa-trash"></i>
-                        </a>
-                      </div>
-                    </td>
-                  </tr>
+                      <tr>
+                        <th scope="row">C5</th>
+                        <td>Mobile native</td>
+                        <td>Développer une application mobile native, avec Android et React Native</td>
+                        <td>Description</td>
+                        <td>
+                          <div class="btn-group" style="gap: 8px;">
+                            <a href="compentence.html?edit" class="btn btn-success">
+                              <i class="fas fa-edit"></i>
+                            </a>
+                            <a href="" class="btn btn-danger">
+                              <i class="fas fa-trash"></i>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
 
-                  <tr>
-                    <th scope="row">C6</th>
-                    <td>Tests</td>
-                    <td>Préparer et exécuter les plans de tests d’une application</td>
-                    <td>Description</td>
-                    <td>
-                      <div class="btn-group">
-                        <a href="edit.html" class="btn btn-success">
-                          <i class="fas fa-edit"></i>
-                        </a>
-                        <a href="" class="btn btn-danger">
-                          <i class="fas fa-trash"></i>
-                        </a>
-                      </div>
-                    </td>
-                  </tr>
+                      <tr>
+                        <th scope="row">C6</th>
+                        <td>Tests</td>
+                        <td>Préparer et exécuter les plans de tests d’une application</td>
+                        <td>Description</td>
+                        <td>
+                          <div class="btn-group" style="gap: 8px;">
+                            <a href="compentence.html?edit" class="btn btn-success">
+                              <i class="fas fa-edit"></i>
+                            </a>
+                            <a href="" class="btn btn-danger">
+                              <i class="fas fa-trash"></i>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
 
-                  <tr>
-                    <th scope="row">C7</th>
-                    <td>Déploiement</td>
-                    <td>Préparer et exécuter le déploiement d’une application web et mobile - perfectionnement</td>
-                    <td>Description</td>
-                    <td>
-                      <div class="btn-group">
-                        <a href="edit.html" class="btn btn-success ">
-                          <i class="fas fa-edit"></i>
-                        </a>
-                        <a href="" class="btn btn-danger ">
-                          <i class="fas fa-trash"></i>
-                        </a>
-                      </div>
-                    </td>
-                  </tr>
+                      <tr>
+                        <th scope="row">C7</th>
+                        <td>Déploiement</td>
+                        <td>Préparer et exécuter le déploiement d’une application web et mobile - perfectionnement</td>
+                        <td>Description</td>
+                        <td>
+                          <div class="btn-group" style="gap: 8px;">
+                            <a href="compentence.html?edit" class="btn btn-success ">
+                              <i class="fas fa-edit"></i>
+                            </a>
+                            <a href="" class="btn btn-danger ">
+                              <i class="fas fa-trash"></i>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
 
-                </tbody>
-              </table>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
-
-
-
-
-
           </div><!-- /.container-fluid -->
       </section>
-      <!-- /.content -->
-
       <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
